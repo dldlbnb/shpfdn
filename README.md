@@ -10,7 +10,7 @@
 [About](#about) |
 [License](#license)
 
-A simple example of Dawn Shopify refrence theme working with Tailwind CSS with Vite as build tool.
+A simple example of Dawn Shopify reference theme working with Tailwind CSS with Vite as build tool.
 
 ## Usage
 
@@ -46,59 +46,6 @@ npm run dev
 ```
 
 After authenticating, this will start a local development server running at `https://localhost:9292` that you can use to preview your changes.
-
-## Forking and Using Dawn with Tailwind CSS
-
-To use this Dawn theme with Tailwind CSS in your own project, follow these steps:
-
-1. Fork this repository by clicking the "Fork" button at the top right of this page.
-
-2. Clone your forked repository to your local machine:
-
-   ```bash
-   git clone https://github.com/odestry/dawn-with-tailwind
-   ```
-
-3. Navigate to the cloned directory:
-
-   ```bash
-   cd dawn-with-tailwind
-   ```
-
-4. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-5. Update the `shopify.theme.toml` file with your store's information:
-
-   ```toml
-   [environments.development]
-   store = "your-store-name.myshopify.com"
-   ```
-
-6. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-7. Make your desired changes to the theme. You can find the Tailwind CSS configuration in `tailwind.config.ts`.
-
-8. When you're ready to deploy your changes, build the theme:
-
-   ```bash
-   npm run build
-   ```
-
-9. Deploy the theme to your Shopify store using Shopify CLI:
-
-   ```bash
-   shopify theme push
-   ```
-
-Remember to commit and push your changes to your forked repository to keep track of your work.
 
 ## Tools
 
