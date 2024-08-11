@@ -21,6 +21,7 @@
     "postcss": "latest",
     "prettier": "latest",
     "tailwindcss": "latest",
+    "tailwindcss-rem-to-px": "^0.1.1",
     "vite": "latest"
   }
 }
