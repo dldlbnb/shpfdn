@@ -1,5 +1,5 @@
 {
-  "name": "dawn",
+  "name": "dawn-with-tailwindcss",
   "version": "1.0.2",
   "private": true,
   "type": "module",
@@ -8,20 +8,18 @@
     "shopify:dev": "shopify theme dev -e dev",
     "pull": "shopify theme pull -d -o sections/*.json templates/*.json templates/customers/*.json config/settings_data.json",
     "watch": "vite build -w",
-    "build": "vite build --minify",
-    "release": "bumpp"
+    "build": "vite build --minify"
   },
   "devDependencies": {
     "@shopify/cli": "latest",
     "@shopify/prettier-plugin-liquid": "latest",
     "@shopify/theme": "latest",
     "autoprefixer": "latest",
-    "bumpp": "latest",
     "npm-run-all": "latest",
     "postcss": "latest",
     "prettier": "latest",
     "tailwindcss": "latest",
-    "tailwindcss-rem-to-px": "^0.1.1",
+    "tailwindcss-rem-to-px": "latest",
     "vite": "latest"
   }
 }
