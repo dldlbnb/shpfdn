@@ -10,6 +10,8 @@
 [About](#about) |
 [License](#license)
 
+[![Watch the video](https://img.youtube.com/vi/TWA3ZFiTvsY/default.jpg)](https://youtu.be/TWA3ZFiTvsY)
+
 A simple example of Dawn Shopify reference theme working with Tailwind CSS with Vite as build tool.
 
 ## Usage
