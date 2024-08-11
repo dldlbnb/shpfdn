@@ -1,6 +1,6 @@
 {
-  "name": "dawn-with-tailwindcss",
-  "version": "1.0.2",
+  "name": "dawn-with-tailwind",
+  "version": "15.0.1",
   "private": true,
   "type": "module",
   "scripts": {
