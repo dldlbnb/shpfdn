@@ -1,0 +1,26 @@
+{
+  "name": "dawn",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "run-p -sr shopify:dev watch",
+    "shopify:dev": "shopify theme dev -e dev",
+    "pull": "shopify theme pull -d -o sections/*.json templates/*.json templates/customers/*.json config/settings_data.json",
+    "watch": "vite build -w",
+    "build": "vite build --minify",
+    "release": "bumpp"
+  },
+  "devDependencies": {
+    "@shopify/cli": "latest",
+    "@shopify/prettier-plugin-liquid": "latest",
+    "@shopify/theme": "latest",
+    "autoprefixer": "latest",
+    "bumpp": "latest",
+    "npm-run-all": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest"
+  }
+}
